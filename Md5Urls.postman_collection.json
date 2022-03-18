@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "f9fd8bfa-20eb-4d0e-8e04-95e2dd177d0c",
+		"name": "Md5Urls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "urls",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"urls\":[\"asanpardakht.ir\",\"google.com\",\"yahoo.com\",\"tabnak.ir\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/md5urls"
+			},
+			"response": []
+		}
+	]
+}
